@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-from roboclaw_drive.roboclaw import Roboclaw
+from my_roboclaw.roboclaw import Roboclaw
+from time import sleep
 
 if __name__ == '__main__':
     address = 0x80
